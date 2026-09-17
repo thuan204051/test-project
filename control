@@ -1,0 +1,14 @@
+Package: com.coolbooter.coolbootercli-oss
+Name: CoolBooter CLI (Open Source)
+Version: 1.0-oss
+Architecture: iphoneos-arm
+Description: Open source reimplementation of CoolBooter CLI.
+  Dual boot utility for 32-bit jailbroken iOS devices.
+  Installs a secondary iOS on /dev/disk0s1s3 and boots it via kloader.
+Author: CoolBooter OSS Contributors
+Maintainer: CoolBooter OSS
+Section: Utilities
+Priority: optional
+Depends: curl, unzip, com.ex.multi-kloader | com.rpetrich.kloader
+Conflicts: com.coolbooter.coolbootercli
+Homepage: https://github.com/coolbooter-oss/coolbootercli
